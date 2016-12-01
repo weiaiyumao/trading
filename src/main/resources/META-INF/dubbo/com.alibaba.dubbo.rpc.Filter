@@ -1,0 +1,2 @@
+providerLog=com.zhihuishu.treenity.log.ProviderLogFilter
+consumerLog=com.zhihuishu.treenity.log.ConsumerLogFilter

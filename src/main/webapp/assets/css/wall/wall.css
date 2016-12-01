@@ -1,0 +1,17 @@
+.login-section{position:relative;width:100%;background-image:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201608/895d719e4a9247f1aa56465a61b4e5fb.jpg); background-size:cover;}
+.login-section-container{position:absolute;top:50%;left:50%;margin-left:-600px;margin-top:-269px;width:1200px;height:538px;}
+.login-logo{width:238px;height:52px;margin:0 auto;background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201610/7eb5ae04addc4277836bed7283ffed19.png) no-repeat;}
+.login-slogan{margin:60px auto 0;width:974px;height:141px;font-size:66px;color:#fff;text-align:center;background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201609/836551207afb485f97d2ba41d680cda9.png) no-repeat;text-indent:-9999px;}
+.login-form{width:680px;height:48px;margin:100px auto 0;}
+.login-form input{width:228px;height:48px;border-radius:5px;background:rgba(255,255,255,.25);color:#fff;font-size:14px;padding-left:12px;margin-right:16px;height:14px\9;padding:17px 0 17px 12px\9;color:#333\9;}
+.login-form input::-moz-placeholder {color:#fff;}
+.login-form input::-webkit-input-placeholder {color:#fff;}
+.login-form input:-ms-input-placeholder {color:#fff;}
+.login-form button{width:156px;height:48px;color:#fff;text-align:center;line-height:48px;background:#1ab0c4;border-radius:5px;font-size:16px;}
+.login-form button:hover{background:#1ec1d7;}
+.forgetten-password-link{color:#e1e1e1;display:block;text-align:center;margin:50px auto 0;width:1200px;}
+.forgetten-password-link:hover{color:#fff;}
+.login-decorate-line{display:block;width:70px;height:30px;border-bottom:1px solid #fff;margin:0 auto;}
+.login-error-tip{margin:20px auto 0;;height:18px;width:680px;}
+.login-error-tip span{color:#ff3333;}
+.login-copyright{color:#f2f2f2;margin:20px auto 0;text-align:center;line-height:18px;font-size:12px;}

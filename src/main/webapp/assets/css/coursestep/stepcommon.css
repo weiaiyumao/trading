@@ -1,0 +1,80 @@
+/*CSS */
+body{font-size:14px;}
+/*闅愯棌缂栬緫鍣ㄧ紪杈戞寜閽�*/
+.edui-editor-toolbarbox{
+	   display:none;
+	  }
+
+/* nav */
+.createcourse-nav{ margin-bottom:30px;}
+.createcourse-div{ width:1200px; height:auto; margin:0 auto 90px; }
+.createcourse-div .tit { color: #272727;line-height: 40px;min-height:40px;font-size: 36px;text-align: center; margin: 60px auto; font-family: "Hiragino Sans GB","Microsoft Yahei",arial,瀹嬩綋,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; width:1000px;overflow-wrap: break-word;word-wrap:break-word; }
+.createcourse-firststep-div .hometit-p{ color:#272727; line-height:22px; min-height:38px;font-size:21px; text-align:center;overflow-wrap: break-word;word-wrap:break-word; }
+.createcourse-div .stepdiv{ border-bottom:2px solid #dadada; margin:0px auto 0; padding:0 92px;}
+.createcourse-div .stepdiv ul li{width:155px; float:left; margin:0 7px;}
+.createcourse-div .stepdiv ul li a{width:155px; padding:0px 0px 20px;text-align:center; font-size:18px; color:#fff; position:relative; top:2px; display:inline-block;}
+.createcourse-div .stepdiv ul .cur{ border-bottom:2px solid #1aa1b5;}
+.createcourse-div .stepdiv ul li .cur:hover{ border-bottom:2px solid #0e8ea1; transition: background 0.2s ease-in 0s; }
+.createcourse-div .stepdiv ul li a:hover{ border-bottom:2px solid #b9bbbb; transition: background 0.2s ease-in 0s; }
+.createcourse-div .stepdiv ul .cur .stepfont{ color:#1aa1b5;}
+.createcourse-div .stepdiv ul li a .stepfont{width:155px; text-align:center; color:#dedede; margin-bottom:12px; display:inline-block; line-height:20px;}
+.createcourse-div .stepdiv ul li a  .stepnav{ display:inline-block;padding:7px 0; width:155px;text-align:center; height:21px; line-height:21px; color:#fff; background:#c9caca;  border-radius: 4px; font-size:14px; transition: background 0.2s ease-in 0s; }
+.createcourse-div .stepdiv ul li a:hover .stepfont{color:#b9bbbb;}
+.createcourse-div .stepdiv ul li .cur .stepnav{ background:#1aa1b5;}
+.createcourse-div .stepdiv ul li a:hover  .stepnav{background:#b9bbbb;}
+.createcourse-div .stepdiv ul .cur:hover .stepnav{ background:#0e8ea1;}
+.createcourse-div .stepdiv ul li .cur:hover .stepfont{ color:#0e8ea1; }
+/* nav */
+textarea{ height:40px; color:#999;}
+input{ color:#999;}
+ input.blur, textarea.blur{ color:#000;}
+ .stepconter-div{ padding:0 100px;}
+.stepconter-div .stepconte-ul>li{ margin-bottom:20px;}
+.stepconter-div>ul>li .icotit_div{  margin-bottom:10px; position:relative;}
+.stepconter-div .rightico, .stepconter-div .hintico, .stepconter-div .questionmark-ico, .addinstructor .addico, .icotit_div .red-hintico, .coursetitle .upload-div .editico,  .faceLecture-title .uparrow, .faceLecture-title .downarrow, .lectereaddico-div .lectereaddico, .information-div .informationdelete-ico{background:url( http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat; display:inline-block;}
+ .faceLecture-div .faceLecturedeleteico{background:url( http://image.zhihuishu.com/zhs_yanfa_150820/able-commons/demo/201609/9ccc844843a44ed99a9788a73e0910a8.png) no-repeat; cursor:pointer;}
+.createcourse-firststep-div .progresstree_div .trees-btn, .progress-tree-wrap .viewcourse-ico, .hometit-p .editico{background:url( http://image.zhihuishu.com/testzhs/able-commons/demo/201611/bfa16a2a882a4afab3427ffbaa0ecf11.png ) no-repeat; display:inline-block;}
+.addinstructor { cursor:pointer;}
+.assessstrategylist-ul li .progressbar-redico, .assessstrategylist-ul li .progressbar-blueico, .assessstrategylist-ul li .progressbar-yellowico, .assessstrategylist-ul li .progressbar-greenico, .assessstrategylist-ul li .progressbar-grayico{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/de7c275411ca4c68b7e2aaf48af5380f.png) no-repeat; display:inline-block;}
+.stepconter-div .rightico{ background-position:0 0; width:18px; height:16px; margin-right:10px; position:absolute; left:0px; top:3px;  }
+.stepconter-div .hintico {background-position:-23px 0; width:18px; height:25px; margin-right:10px;  position:absolute; left:3px; top:0px;}
+.stepconter-div .questionmark-ico{ background-position:-41px 0; width:15px; height:16px;  margin:2px 0 0 10px; }
+.stepconter-div .coursetitle{ width:970px; margin-left:30px;}
+.stepconter-div .coursetitle .coursetitle-input{  width:100%; height:30px;  border:1px solid #e2e2e2;}
+.stepconter-div .coursetitle .coursetitle-input input{ width:926px; height:20px; border:0;background:#fff;}
+.stepconter-div .coursetitle .courseimage{ background:url(http://image.zhihuishu.com/zhs_yanfa_150820/able-commons/demo/201608/3860c227729d4e36b72eb344731d822a.jpg) no-repeat; width:223px; height:125px; display:inline-block;}
+.stepconter-div .coursetitle .video-image{background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201609/1c0f2edeb5aa4b808dc66adee346d8c0.jpg) no-repeat;}
+.stepconter-div>ul>li .icotit_div .tit-p{ margin-left:30px;color: #595757;font-size: 16px;font-weight: 700;line-height: 20px;}
+.stepconter-div  .wordlimit{ width:30px; height:26px; margin:1px 1px 0 0; display:inline-block; border:1px solid #b5b5b5; background:#dbdada; text-align:center; line-height:26px; color:#595757; font-size:14px;}
+.stepconter-div .coursetitle .institution_input{ width:220px; height:20px;background:#fff;}
+.stepconter-div .coursetitle .institution_input40{ width:40px; height:20px;}
+.stepconter-div .coursetitle .lecturesdiv{ margin-bottom:15px;}
+.stepconter-div .coursetitle .lecturesdiv p{ color:#cdcdcd; font-size:16px; margin-bottom:15px; line-height:20px;}
+.lecturesdiv select{ width:170px; padding:5px; border:1px solid #e2e2e2;}
+.coursetitle .information-div{  padding:10px; height:auto; overflow:hidden; width:100%; margin-bottom:15px; border:1px solid #e2e2e2; position:relative;}
+.coursetitle .information-div:hover .informationdelete-ico{ background-position:-50px -53px; width:16px; height:16px; position:absolute; right:10px; top:15px; cursor:pointer;}
+.coursetitle .information-div .informationdelete-ico:hover{ background-position:-71px -53px;}
+.coursetitle .information-div .information-l{ background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201611/516a68016a10459e996b269d672feefa.jpg) no-repeat; width:115px; height:141px; margin-right:10px;cursor:pointer;}
+.information-r ul li .fullname, .information-r ul li .title{margin-bottom:10px; width:140px; height:20px;}
+.information-r ul li .personalprofile{  width:830px; height:auto; resize:none}
+.addinstructor .addico{ background-position:-60px 3px; width:15px; height:15px; margin-right:10px; }
+.nextbtn-div{height:auto; overflow:hidden; margin:80px 0 0 130px;}
+.coursetitle .upload-div{cursor: pointer;height: 125px;margin-right: 25px;position: relative;width: 223px;}
+.coursetitle .upload-div .editico{ background-position:0px -26px; width:23px; height:23px; position:absolute !important; top:3px; right:3px;}
+.coursetitle .qq-upload-button-hover{background-position:-30px -27px !important;}
+.textareaposition{position: absolute; visibility: hidden; }
+.textareapositionblock{ display:block;}
+.qq-upload-button-hover{ background:none !important;}
+.coursetitle .upload-div .videoico{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/105a35af46ca4084bf2ff71022f20baf.png) no-repeat; width:59px; height:59px; display:inline-block; position:absolute; top:27px; left:87px; }
+.coursetitle .upload-div .videoico:hover{ background-position:0 -61px;}
+.totalhours-span{color:#666; margin-left:5px; line-height:20px;}
+/* .course_hometite_span{max-width:840px;display: inline-block;overflow:hidden;white-space:nowrap; text-overflow:ellipsis;}
+ */
+ .srollbar-up-btn{width:56px;height:56px;position:fixed;right:50px;bottom:100px;background:url(http://image.zhihuishu.com/zhs_yanfa_150820/ablecommons/demo/201610/36fff519d4eb48408bde55cd8574d1fb.png) no-repeat;cursor:pointer;}
+ .coursetitle .upload-div .videoico{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/105a35af46ca4084bf2ff71022f20baf.png) no-repeat; width:59px; height:59px; display:inline-block; position:absolute; top:27px; left:87px; }
+.coursetitle .upload-div .videoico:hover{ background-position:0 -61px;}
+.totalhours-span{color:#666; margin-left:5px; line-height:20px;}
+/*涓婁紶缁勪欢鎻愮ず妗嗘牱寮�*/
+.qq-progress-bar-selector{ background:#1aa1b5 !important;}
+#aspupload .headbar{background:#1aa1b5 !important;}
+#aspupload{ border:1px solid #0e8ea1 !important;}

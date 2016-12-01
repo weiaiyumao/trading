@@ -1,0 +1,18 @@
+/***
+*播放器相关样式
+*/
+/* 播放器弹出框样式 */
+/* .layui-layer-videoPlayer{ */
+/* 	margin: 0px;padding: 25px 5px 5px 25px;border: 2px solid #ccc; */
+/* 	border-radius: 10px; 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */
+/* 	-moz-border-radius: 10px; Mozilla浏览器的私有属性 */
+/* 	-webkit-border-radius: 10px; Webkit浏览器的私有属性 */
+/* 	background:rgba(255, 255, 255, 0.6) none repeat scroll 0 0 !important;实现FF背景透明，文字不透明 */
+/* 	filter:Alpha(opacity=60); background:#fff;实现IE背景透明} */
+/* } */
+/* #videoPlayer .con p{ position:relative;}实现IE文字不透明 */
+
+/* 播放器样式 */
+.publicVideoPlayer{
+	width:805px;height:450px;background-color:black;display: none;border:1px solid black;margin: 0px 20px 20px 20px;overflow: hidden;
+}

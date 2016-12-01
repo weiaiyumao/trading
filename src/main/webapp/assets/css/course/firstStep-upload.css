@@ -1,0 +1,93 @@
+/*单张图片上传样式*/
+/* .uploadBtn_courseTitle{
+	background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201609/4a3cd3d559654159bfdb74de065f734d.jpg) no-repeat; 
+	width:223px; height:125px; display:block;
+} */
+.singlePhoto{
+	width:223px; height:125px; position:relative;top: 0;left: 0;overflow: hidden;
+}
+.singlePhoto .setedit_editico{ 
+	background:url(../../image/creatcourse_commonico.png) -34px -117px no-repeat; 
+	width:223px; height:125px; display:block; 
+	position: absolute;top: 0px; left: 0px;
+}
+.singlePhoto .setedit_editico:hover{ 
+	background:url(../../image/creatcourse_commonico.png) -34px -117px no-repeat; 
+	width:223px; height:125px; display:block; 
+	position:absolute; top:0px; left:0px;
+}
+.singlePhoto span{
+	display: block;width:223px; height:125px;
+}
+/*国际化切换图片*/
+/*课程封面*/
+.singlePhoto .uploadBtn_courseTitle_zh{
+	background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201609/276e411ea8b14cba99faa453488b385a.jpg) no-repeat; 
+	width:223px; height:125px; display:block;
+}
+.singlePhoto .uploadBtn_courseTitle_en{
+	background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201611/68fedebdd3f548d29537e2c23c7413ea.jpg) no-repeat; 
+	width:223px; height:125px; display:block;
+}
+
+/*图片组上传*/
+/*.uploadBtn_courseImges{
+	background:url(img/1.png) no-repeat; display:inline-block;
+	width:100px; height:100px;
+}*/
+
+
+.manyPhoto{
+	width:115px; height:141px; position:relative;top: 0;left: 0;overflow: hidden;
+}
+.manyPhoto .setedit_editico{ 
+	background:url(../../image/creatcourse_commonico.png) -34px -117px no-repeat; 
+	width:115px; height:141px; display:block; 
+	position: absolute;top: 0px; left: 0px;overflow: hidden;
+}
+.manyPhoto span{
+	width:115px; height:141px; display:inline-block; overflow: hidden;
+}
+.manyPhoto img{
+	width:115px; height:141px;
+}
+/*视频上传*/
+
+.uploadPromo-div{
+	width:223px; height:125px;
+}
+.uploadPromo-div .setedit_editico{ 
+	background:url( http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat;
+	background-position:0px -22px; 
+	width:25px; height:23px; 
+	position:absolute; 
+	top:0px; right:0px;
+	z-index: 100;
+}
+.uploadPromo-div .setedit_editico:hover{ 
+	background:url( http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat;
+	background-position:0px -22px; 
+	width:25px; height:23px; 
+	position:absolute; 
+	top:0px; right:0px;
+	z-index: 100;
+}
+.uploadPromo-div  .PromoVideo{
+	border: 1px solid #ccc;
+}
+.uploadPromo-div  span{
+	overflow: hidden;
+}
+
+
+
+/*上传片花*/
+.uploadBtn_promoVideo_zh{
+	background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201609/0800576ff01b436893694daf77560d29.jpg) no-repeat; 
+	width:223px; height:125px; display:block;
+}
+.uploadBtn_promoVideo_en{
+	background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/1ffee29189244b5ca9882c93517aa54e.jpg) no-repeat; 
+	width:223px; height:125px; display:block;
+}
+

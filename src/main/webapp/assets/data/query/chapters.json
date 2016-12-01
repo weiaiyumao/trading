@@ -1,0 +1,21 @@
+{
+  "data": {
+    "chapters": [
+      {
+        "chapterId": 1001,
+        "name": "第一章的名字",
+        "description": "第一章的描述",
+        "limitDay": 12,
+        "studyHour": 33
+      },
+      {
+        "chapterId": 1002,
+        "name": "第二章的名字",
+        "description": "第二章的描述",
+        "limitDay": 22,
+        "studyHour": 44
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "sections": [
+      {
+        "sectionId": 20001,
+        "name": "Lesson I的名字",
+        "introduction":  "Lesson I的介绍",
+        "sectionVideos":[{
+          "sectionVideoId":20000001,
+          "videoId":123456,
+          "name": "电子显示器",
+          "link": 1,
+          "image": "http://n.sinaimg.cn/translate/20161009/5Jsw-fxwrtna8080581.jpg"
+        },{
+          "sectionVideoId":20000002,
+          "videoId":223456,
+          "name": "百度",
+          "link": 1,
+          "image": "https://www.baidu.com/img/baidu_jgylogo3.gif"
+        }]
+      },
+      {
+        "sectionId": 20002,
+        "name": "Lesson II的名字",
+        "introduction":  "Lesson II的介绍",
+        "sectionVideos":[{
+          "sectionVideoId":30000001,
+          "videoId":323456,
+          "name": "Ac fun",
+          "link": 1,
+          "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=331588893,3341271275&fm=58&s=4986F51E87E05D0354D035760200F070"
+        },{
+          "sectionVideoId":30000002,
+          "videoId":423456,
+          "name": "时钟",
+          "link": 1,
+          "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=4017619152,2811648831&fm=58"
+        }]
+      }
+
+    ]
+  }
+
+}

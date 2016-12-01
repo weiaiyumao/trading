@@ -1,0 +1,11 @@
+/* sixthstep start*/
+.stepconter-div .checklist-p{ color:#595757; font-size:24px;margin:50px 0 20px; line-height:24px;}
+.stepcompletion-div .stepcompletion-p{ color:#1aa1b5; font-size:18px; line-height:20px; margin-bottom:25px;}
+.stepconte-ul li{}
+.stepconte-ul .icotit_div{ position:relative; display:inline-block;}
+.stepconte-ul .icotit_div .tit-p:hover{font-weight:700; }
+.stepconte-ul .icotit_div .tit-p{ margin-left:30px; font-size:18px; color:#272727; line-height:20px;height: 22px;
+display: inline-block;}
+.stepcompletion-div{ margin-bottom:30px;}
+.check-btn{display:inline-block;width:26px;height:29px;background:url(http://image.zhihuishu.com/zhs_yanfa_150820/ablecommons/demo/201610/c0243f002845437e8e12745a74b4f343.jpg) no-repeat;vertical-align:middle;margin-left:10px;cursor:pointer;}
+/* sixthstep end*/

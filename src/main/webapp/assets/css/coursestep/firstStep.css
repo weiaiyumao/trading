@@ -1,0 +1,36 @@
+/* firststep start*/
+.stepconter-div{ padding:0 100px;}
+.stepconter-div .stepconte-ul>li{ margin-bottom:20px;}
+.stepconter-div>ul>li .icotit_div{  margin-bottom:10px; position:relative;}
+.stepconter-div .rightico, .stepconter-div .hintico, .stepconter-div .questionmark-ico, .addinstructor .addico, .icotit_div .red-hintico, .coursetitle .upload-div .editico,  .faceLecture-title .uparrow, .faceLecture-title .downarrow, .lectereaddico-div .lectereaddico, .information-div .informationdelete-ico{background:url( http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat; display:inline-block;}
+.faceLecture-div .faceLecturedeleteico{background:url( http://image.zhihuishu.com/zhs_yanfa_150820/able-commons/demo/201609/9ccc844843a44ed99a9788a73e0910a8.png) no-repeat; cursor:pointer;}
+.createcourse-firststep-div .progresstree_div .trees-btn, .progress-tree-wrap .viewcourse-ico, .hometit-p .editico{background:url( http://image.zhihuishu.com/testzhs/able-commons/demo/201609/96879291e8ce464caa8d9b033168df11.png ) no-repeat; display:inline-block;}
+.addinstructor { cursor:pointer;}
+.assessstrategylist-ul li .progressbar-redico, .assessstrategylist-ul li .progressbar-blueico, .assessstrategylist-ul li .progressbar-yellowico, .assessstrategylist-ul li .progressbar-greenico, .forum-div .progressbar-grayico{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/de7c275411ca4c68b7e2aaf48af5380f.png) no-repeat; display:inline-block;}
+.stepconter-div .rightico{ background-position:0 0; width:18px; height:16px; margin-right:10px; position:absolute; left:0px; top:3px;  }
+.stepconter-div .hintico {background-position:-23px 0; width:18px; height:25px; margin-right:10px;  position:absolute; left:3px; top:0px;}
+.stepconter-div .questionmark-ico{ background-position:-41px 0; width:15px; height:16px;  margin:2px 0 0 10px; }
+.stepconter-div .coursetitle{ width:970px; margin-left:30px;}
+.stepconter-div .coursetitle .coursetitle-input{  width:100%; height:30px;  border:1px solid #e2e2e2;}
+.stepconter-div .coursetitle .coursetitle-input input{ width:926px; height:20px; border:0;}
+.stepconter-div .coursetitle .courseimage{ background:url(http://image.zhihuishu.com/zhs_yanfa_150820/able-commons/demo/201608/3860c227729d4e36b72eb344731d822a.jpg) no-repeat; width:223px; height:125px; display:inline-block;}
+.stepconter-div .coursetitle .video-image{background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201609/1c0f2edeb5aa4b808dc66adee346d8c0.jpg) no-repeat;}
+.stepconter-div>ul>li .icotit_div .tit-p{ margin-left:30px;color: #595757;font-size: 16px;font-weight: 700;line-height: 20px;}
+.stepconter-div  .wordlimit{ width:30px; height:26px; margin:1px 1px 0 0; display:inline-block; border:1px solid #b5b5b5; background:#dbdada; text-align:center; line-height:26px; color:#595757; font-size:14px;}
+.stepconter-div .coursetitle .institution_input{ width:220px; height:20px;}
+.stepconter-div .coursetitle .institution_input40{ width:40px; height:20px;}
+.stepconter-div .coursetitle .lecturesdiv{ margin-bottom:15px;}
+.stepconter-div .coursetitle .lecturesdiv p{ color:#cdcdcd; font-size:16px; margin-bottom:15px; line-height:20px;}
+.lecturesdiv select{ width:170px; padding:5px; border:1px solid #e2e2e2;}
+.coursetitle .information-div{  padding:10px; height:auto; overflow:hidden; width:100%; margin-bottom:15px; border:1px solid #e2e2e2; position:relative;}
+.coursetitle .information-div:hover .informationdelete-ico{ background-position:-50px -53px; width:16px; height:16px; position:absolute; right:10px; top:15px; cursor:pointer;}
+.coursetitle .information-div .informationdelete-ico:hover{ background-position:-71px -53px;}
+.coursetitle .information-div .information-l{ background:url(http://image.zhihuishu.com/testzhs/ablecommons/demo/201611/516a68016a10459e996b269d672feefa.jpg) no-repeat; width:115px; height:141px; margin-right:10px;cursor:pointer;}
+.information-r ul li .fullname, .information-r ul li .title{margin-bottom:10px; width:140px; height:20px;}
+.information-r ul li .personalprofile{  width:830px; height:auto; resize:none}
+.addinstructor .addico{ background-position:-60px 3px; width:15px; height:15px; margin-right:10px; }
+.nextbtn-div{height:auto; overflow:hidden; margin:80px 0 0 130px;}
+.coursetitle .upload-div{cursor: pointer;height: 125px;margin-right: 25px;position: relative;width: 223px;}
+.coursetitle .upload-div .editico{ background-position:0px -26px; width:23px; height:23px; position:absolute !important; top:3px; right:3px;}
+.coursetitle .qq-upload-button-hover{background-position:-30px -27px !important;}
+/* firststep end*/

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+  
+	<!-- 新用户接口 -->
+	<dubbo:reference id="userQueryOpenService" interface="com.zhihuishu.user.openapi.common.UserQueryOpenService" check="false" protocol="dubbo" timeout="${dubbo.consumer.timeout}"  version="${dubbo.consumer.version}" />
+	<dubbo:reference id="certifyQueryOpenService" interface="com.zhihuishu.user.openapi.common.CertifyQueryOpenService" check="false" protocol="dubbo" timeout="${dubbo.consumer.timeout}"  version="${dubbo.consumer.version}" />
+
+ 	<!-- To CourseOpenService -->
+ 	<!--<dubbo:reference url="dubbo://192.168.9.205:20882" id="treenityCourseOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>-->
+ 	<dubbo:reference id="treenityCourseOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To CourseSpeakerOpenService -->
+ 	<dubbo:reference id="treenityCourseSpeakerOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseSpeakerOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To MeetCourseOpenService -->
+ 	<dubbo:reference id="treenityMeetCourseOpenService" interface="com.zhihuishu.micro.course.openapi.course.MeetCourseOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To IFileCommonsInvoker 上传文件查询接口 -->
+ 	<dubbo:reference id="iFileCommonsInvoker" interface="com.able.commons.httpinvoker.IFileCommonsInvoker" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To IVideoSubtitleInvoker 视频字幕操作接口-->
+ 	<dubbo:reference id="iVideoSubtitleInvoker" interface="com.able.commons.httpinvoker.IVideoSubtitleInvoker" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To IBBSOpenServiceForOverseaCreateCourse -->
+ 	<dubbo:reference id="treenityMeetIBBSOpenServiceForOverseaCreateCourse" interface="com.zhihuishu.micro.bbs.openapi.onlineschool.IBBSOpenServiceForOverseaCreateCourse" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+
+    <!-- To 海外：章接口（第三步） -->
+    <!--<dubbo:reference url="dubbo://localhost:20882" id="treenityCourseChapterOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseChapterOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>-->
+    <!--<dubbo:reference url="dubbo://localhost:20882" id="treenityCourseLessonOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseLessonOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>-->
+    <!--<dubbo:reference url="dubbo://localhost:20882" id="treenityCourseLessonVideoOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseLessonVideoOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>-->
+    <dubbo:reference id="treenityCourseChapterOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseChapterOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+    <dubbo:reference id="treenityCourseLessonOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseLessonOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+    <dubbo:reference id="treenityCourseLessonVideoOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseLessonVideoOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+
+    <!--章测试、期末考试-->
+    <dubbo:reference id="treenityOverseasCourseService" interface="com.able.onlineExam.openapi.overseas.IOverseasCourseService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}">
+   <dubbo:method name="createExam" timeout="10000"  retries="0" />
+   <dubbo:method name="saveQuestion" timeout="10000"  retries="0" />
+   <dubbo:method name="saveQuestionOption" timeout="10000"  retries="0" />
+    </dubbo:reference>
+
+ 	<!-- To treenityCourseDataOpenService -->
+ 	<dubbo:reference id="treenityCourseDataOpenService" interface="com.zhihuishu.micro.course.openapi.course.CourseDataOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+
+	<!-- To treenityLessonTestQuestionOpenService 视频弹题关联接口-->
+ 	<dubbo:reference id="treenityLessonTestQuestionOpenService" interface="com.zhihuishu.micro.course.openapi.course.LessonTestQuestionOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To treenityScoreAssessRuleOpenService -->
+ 	<dubbo:reference id="treenityScoreAssessRuleOpenService" interface="com.zhihuishu.micro.course.openapi.course.ScoreAssessRuleOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+ 	
+ 	<!-- To treenityCcCourseOpenService -->
+ 	<dubbo:reference id="treenityCcCourseOpenService" interface="com.zhihuishu.micro.course.openapi.course.CcCourseOpenService" check="false" protocol="dubbo"  timeout="${interface_timeout}" version="${interface_version}"/>
+</beans>

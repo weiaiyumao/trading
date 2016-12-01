@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 系统项目名 -->  
+    <dubbo:application name="zhihuishu-treenity" logger="slf4j" />
+  
+    <!-- 注册中心 -->  
+    <dubbo:registry protocol="zookeeper" address="${dubbo.address}" register="${dubbo.register}" />
+    <!-- 是否纳入调用统计报表(可选) -->
+    <dubbo:monitor protocol="registry"/>
+    
+    <!-- 协议 -->
+    <dubbo:protocol name="dubbo" port="${dubbo.port}" serialization="java" />
+
+	<!-- 全局超时设置 ，3秒-->
+	<dubbo:provider timeout="3000" serialization="java" version="${dubbo.provider.version}" filter="providerLog" />
+	<dubbo:consumer timeout="3000" check="false" version="${dubbo.consumer.version}" filter="consumerLog" />
+
+</beans> 

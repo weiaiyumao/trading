@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+           	http://www.springframework.org/schema/context 
+			http://www.springframework.org/schema/context/spring-context.xsd
+			http://www.springframework.org/schema/aop 
+			http://www.springframework.org/schema/aop/spring-aop.xsd">
+			
+	<aop:aspectj-autoproxy /> 
+
+	<!-- 记录方法运行时长日志 -->
+	<bean id="runningTimerAspect" class="com.zhihuishu.treenity.log.RunningTimerAspect" />
+
+	<!-- 日志切面配置 -->
+	<aop:config>
+		<aop:pointcut id="allPublicMethodPointcut" 
+			expression="execution(public * com.zhihuishu.treenity.service..*.*(..)) or execution(public * com.zhihuishu.treenity.mapper..*.*(..))" />
+		<aop:aspect id="runningTimerAspectAspect" ref="runningTimerAspect">
+			<aop:around method="around" pointcut-ref="allPublicMethodPointcut" />
+		</aop:aspect>
+	</aop:config>
+
+</beans>

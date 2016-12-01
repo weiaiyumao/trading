@@ -1,0 +1,104 @@
+.hidden {
+    display: none !important;
+}
+.display-none {
+    display: none;
+}
+.visible-none {
+    visibility: hidden;
+}
+
+.ghost {
+    opacity: 1.0;
+}
+.sortable-drag{
+    display: none;
+}
+.sortable-fallback{
+    /*opacity: 0.6;*/
+    visibility: hidden;
+}
+/*.chosen {*/
+    /*!*color: #gr;*!*/
+    /*background-color: grey;*/
+/*}*/
+
+/*上传小节视频*/
+/*.addSectionVideo input {*/
+    /*height: 100% !important;*/
+    /*width: 100% !important;*/
+/*}*/
+/*.addSectionVideo .qq-upload-button-selector,.qq-upload-button-hover{*/
+    /*!*height: 112px !important;*!*/
+    /*!*width: 195px !important;*!*/
+    /*background: rgba(0, 0, 0, 0) url("http://image.zhihuishu.com/zhs_yanfa_150820/ablecommons/demo/201610/70207d23f518465190d6ff22bc2e560b.jpg") no-repeat scroll 0 0 / cover!important;*/
+/*}*/
+
+/*.sectionVideoReplace input {*/
+    /*height: 100% !important;*/
+    /*width: 100% !important;*/
+/*}*/
+/*.sectionVideoReplace .qq-upload-button-selector,.qq-upload-button-hover{*/
+    /*height: 20px !important;*/
+    /*width: 20px !important;*/
+/*}*/
+/*上传小节视频*/
+
+/*隐藏编辑器编辑按钮*/
+.edui-editor-toolbarbox{
+    display:none;
+}
+.edui-editor-step3-default{
+    border: #fff solid 1px; !important;
+    margin-bottom: 10px !important;
+}
+
+.edui-editor-step3-action{
+    background: #fff none repeat scroll 0 0 !important;
+    border: #e2e2e2 solid 1px; !important;
+    border-radius: 0 !important;
+    /*margin-bottom: 10px !important;*/
+}
+
+.edui-editor-step3-finalExam-default{
+    margin-left: 41px !important;
+    border: #fff solid 1px; !important;
+    margin-bottom: 10px !important;
+}
+
+.edui-editor-step3-finalExam-action{
+    background: #fff none repeat scroll 0 0 !important;
+    border: #e2e2e2 solid 1px; !important;
+    border-radius: 0 !important;
+    margin-left: 41px !important;
+    margin-bottom: 10px !important;
+}
+
+
+.sideCatalog-item1 .sideCatalog-rightico {
+    background: rgba(0, 0, 0, 0) url("http://image.zhihuishu.com/testzhs/able-commons/demo/201610/4e8b4f1755734b1a9426fd7346082023.png") repeat scroll -87px -47px;
+    cursor: pointer;
+    font-size: 12px;
+    height: 9px;
+    line-height: 12px;
+    overflow: hidden;
+    position: absolute;
+    right: -4px;
+    top: 4px;
+    width: 17px;
+}
+.sideCatalog-item1 .sideCatalog-hintico {
+    background: url("http://image.zhihuishu.com/testzhs/able-commons/demo/201610/4e8b4f1755734b1a9426fd7346082023.png") repeat scroll -87px -68px;
+    cursor: pointer;
+    font-size: 12px;
+    height: 15px;
+    line-height: 12px;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    width: 7px;
+}
+
+.creatcoursevideopop ul li .video-div .question-ico.selected{ background-position:-116px 1px;}
+

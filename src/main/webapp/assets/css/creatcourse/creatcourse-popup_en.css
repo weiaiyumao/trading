@@ -1,0 +1,138 @@
+/* librarypopup start*/
+.librarypopup-div{ padding:20px 30px; width:880px; text-align:center;}
+.librarypopup-div .caption-p{ font-size:16px; color:#807f7f; line-height:22px; margin-top:45px;}
+.librarypopup-div .upload-btn{ min-width:200px; height:50px; line-height:50px; color:#fff; display:inline-block; background:#1aa1b5; font-size:18px; margin-top:60px; border-radius: 4px;}
+.librarypopup-div .upload-btn:hover{ background:#0e8ea1; }
+.librarycontent-div tr th, .librarycontent-div tr td{ font-size:14px; color:#000; font-weight:normal; height:35px; line-height:35px; background:#bcf1e3;}
+.librarycontent-div tr th, .librarycontent-div tr td{ border-left:1px solid #fff;}
+.librarycontent-div tr td{ background:#f7f8f8;  padding:0 15px;}
+.librarycontent-div tr:hover{ background:#f0f1f1;}
+.filename-checkbox{ width:20px;}
+.filenamecontent{ width:660px; text-align:left;}
+.filenamesize{ width:100px;}
+.librarycontent-div tbody > tr:nth-child(odd) > td, ..librarycontent-div tbody > tr:nth-child(odd) > th {
+ background-color: #000;
+}
+.librarycontent-div tr:hover>td{ background:#f0f1f1;}
+.librarycontent-div  .librarytr-even td{ background:#f0f1f1;}
+/* librarypopup end*/
+/*videopopup start*/
+textarea{ overflow:auto; color:#999;}
+input.blur, textarea.blur{color: #000;}
+input{ color:#999;}
+.creatcoursevideopop{ width:730px; padding:20px 50px 20px 30px; background:#fbfbfb; height:auto; overflow:hidden; margin:auto;}
+.creatcoursevideopop ul li { width:100%; margin-bottom:20px; min-height:62px;}
+.creatcoursevideopop ul li .title-p{color: #595757;font-size: 14px;line-height: 20px; width:100%; height:25px;}
+.creatcoursevideopop ul li .titleinput{ padding:5px 0 5px 10px; height:20px; line-height:20px;width:682px;}
+.addoption-button{background: #eee none repeat scroll 0 0;border: 1px solid #c9c9c9;border-radius: 3px;color: #595757;display: inline-block;font-size: 14px;line-height: 20px;padding: 5px 10px;transition: all 0.2s ease-in 0s;}
+.englishchinese-btn .language-font{ line-height:30px; font-size:12px; color:#595757;}
+.englishchinese-btn, .uploadlanguage-div, .uploadlanguage-quizdiv{margin-top:10px;}
+.englishchinese-btn .english-btn, .englishchinese-btn .chinese-btn{ width:70px; height:30px; line-height:30px;text-align:center; color:#fff; margin-right:10px; border-radius: 3px;}
+.englishchinese-btn .english-btn{ background:#5086f9;}
+.englishchinese-btn .chinese-btn{ background:#fb4949;}
+.englishchinese-btn .english-btn .qq-upload-button-hover, .englishchinese-btn .chinese-btn .qq-upload-button-hover{width:70px !important; height:30px !important;line-height:30px !important;text-align:center !important; }
+
+.uploadlanguage-div .english-ico, .uploadlanguage-div .chinese-ico, .creatcoursevideopop ul li .video-div .question-ico{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201610/c92212b5d3f94ef98d331219f8872a50.png) no-repeat; display:inline-block; vertical-align:middle;}
+.uploadlanguage-div .english-ico, .uploadlanguage-div .chinese-ico{ width:24px; height:16px; margin-right:10px; margin-top:2px;}
+.uploadlanguage-div .english-ico{ background-position:-32px 0;} 
+.uploadlanguage-div .chinese-ico{ background-position:0 0;}
+.uploadlanguage-div .delete{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) -71px -53px no-repeat ; display:inline-block; width:16px; height:16px; vertical-align:middle; margin:2px 0 0 15px; cursor:pointer;}
+/*.uploadlanguage-div .delete:hover { background-position:-50px -53px;}*/
+.uploadlanguage-div .uploadname{ font-size:14px; line-height:20px;}
+.creatcoursevideopop ul li .video-div{ width:740px; height:415px; position:relative;}
+.creatcoursevideopop ul li .video-div .question-ico{ background-position:-74px 0; width:27px; height:39px; position:absolute; bottom:-42px; color:#fff; line-height:51px; text-align:center; font-size:12px; cursor:pointer; left:50px;}
+.creatcoursevideopop ul li .video-div .question-ico:hover{ background-position:-116px 1px;}
+.creatcoursevideopop ul li .title-p  .questionmark-ico {background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat -41px 0;
+    display: inline-block; height: 16px;
+    margin: 2px 0 0 10px;
+    width: 15px}
+.uploadlanguage-quizdiv .quizinput1, .uploadlanguage-quizdiv .quizinput2{ padding:9px; width:20px; height:20px; line-height:20px; border:1px solid #c9c9c9; background:#fff;}
+.uploadlanguage-quizdiv .quizinput1{ margin-right:6px;}
+.uploadlanguage-quizdiv .quizinput2{ margin-left:6px;}
+.uploadlanguage-quizdiv{ line-height:40px; font-size:20px;}
+.uploadlanguage-div .question-textarea{ width:630px;  }
+.uploadlanguage-div{ position:relative; height:auto; overflow:hidden;}
+.uploadlanguage-div .question-textarea, .uploadlanguage-div .answer-textarea{border:1px solid #c9c9c9;padding:10px; background:#fff;height:52px; resize:none; }
+.uploadlanguage-div .answer-textarea{ width:596px;}
+.uploadlanguage-div .question-checkbox{ margin-right:20px;}
+.uploadlanguage-div .deleteico { background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat 0 0;
+cursor: pointer;display: inline-block;position: absolute;right: -3px;top: 0;}
+.uploadlanguage-div .deleteico { background-position:-71px -53px; width:20px; height:20px;}
+/*.uploadlanguage-div .deleteico:hover{ background-position: -50px -53px;}*/
+.title-p .answer-span{ margin-left:20px;}
+.uploadlanguage-m{ margin-bottom:15px;}
+.finalexam-div{ width:523px; padding:20px 130px;  height:auto; overflow:hidden; margin:auto;}
+finalexam-ul{ list-style-type: none; margin: 0; padding: 0;  }
+.finalexam-ul li { margin:12px; width:106px; height:96px;float:left; position:relative; }
+.finalexam-ul li a{ display:inline-block;  padding:1px; width:104px; height:94px; background:#eee;}
+.finalexam-ul li .bordergreen{ border:1px solid #51c4a5;}
+.finalexam-ul li .borderyellow{ border:1px solid #da9e2d;}
+.finalexam-ul li .borderred{ border:1px solid #e75170;}
+.finalexam-ul li .borderblue{ border:1px solid #509fd9;}
+.finalexam-ul li a p{ width:100%; height:30px; position:absolute; left:1px; bottom:-1px; margin:0; color:#fff; font-size:12px; text-align:center; line-height:16px; padding:5px 0;}
+ .finalexam-ul li .bordergreen p{background:#84e5cb; }
+ .finalexam-ul li .borderyellow p{background:#f8c463; }
+ .finalexam-ul li .borderred p{background:#f5708c; }
+ .finalexam-ul li .borderblue p{background:#7ebdeb; }
+.finalexam-ul li a .font-p1{line-height:30px; }
+  .finalexam-ul li a span{  background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201610/3a956dbac430431f998723f6d61fb6c9.png) no-repeat; position:absolute; top:16px; left:40%; display:inline-block;}
+  .finalexam-ul li a .multiplechoices-ico{ background-position:-87px -89px;  width:25px;  height:27px; }
+  .finalexam-ul li a .blankquestions-ico{ background-position:-86px -123px;width:28px;  height:28px;}
+  .finalexam-ul li a .fales-ico{background-position:-88px -156px; height:27px; width:28px;  height:28px;}
+  .finalexam-ul li a .questionsproblems-ico{background-position:-86px -189px; width:23px; height:27px;}
+  .creatcoursevideopop .videowrap{ border:1px solid #a0a0a0;margin:20px 0 60px; height:auto; overflow:hidden; width: 730px;}
+  .videowrap ul { padding:50px 32px 20px 20px; width:675px;}
+  .creatcoursevideopop ul .videobtn-list{ min-height:30px; margin-bottom:0;}
+   .videowrap ul li .videosave-ico, .videowrap ul li  .videodelete-ico{min-width:73px; height:30px; line-height:30px; color:#fff; display:inline-block; text-align:center;border-radius:3px;transition: all 0.2s ease-in 0s;}
+  .videowrap ul li .videosave-ico{ background:#55c93e; }
+  .videowrap ul li .videosave-ico:hover{ background:#49b434;}
+  .videowrap ul li  .videodelete-ico{ background:#e70303; margin-left:7px; }
+  .videowrap ul li  .videodelete-ico:hover{background:#cd1010;}
+/*videopopup end*/
+/*finalexampopup-wrap start*/
+.finalexampopup-wrap{ padding:25px 50px 0 30px;   margin:0 auto; background:#fbfbfb;}
+.finalexampopup-wrap ul li{ margin-bottom:20px;}
+.finalexampopup-wrap ul li .finalexam-p{ font-size:14px; color:#595757; line-height:20px;}
+.finalexampopup-wrap ul li  .finalexam-font{font-size:16px;}
+.finalexampopup-wrap ul li  .inputtexarea-div .points-input{ padding:6px; width:24px; height:18px; border:1px solid #ccc; line-height:20px;}
+.inputtexarea-div{  margin:10px 0 15px 0; position:relative;}
+.inputtexarea-div1{position:relative; width:735px;}
+.finalexampopup-wrap ul li  .inputtexarea-div .question-textarea{ padding:5px; width:698px; height:60px; }
+.finalexampopup-wrap ul li  .inputtexarea-div .points-input, .finalexampopup-wrap ul li  .inputtexarea-div .question-textarea, .finalexampopup-wrap ul li  .inputtexarea-div .answer-textarea{border:1px solid #ccc; resize:none;}
+ .finalexampopup-wrap .inputtexarea-div .deleteico{background: url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0c16b625ed794bffb6a68621849561a0.png) no-repeat;display: inline-block; cursor:pointer; position:absolute; right:0px; top:0;  }
+.finalexampopup-wrap .inputtexarea-div .deleteico{ background-position:-71px -53px;width:16px; height:16px;}
+/*.finalexampopup-wrap .inputtexarea-div .deleteico:hover{ background-position:-50px -53px;width:16px; height:16px;}*/
+.finalexampopup-wrap .inputtexarea-div  .question-checkbox{ margin-right:20px;}
+.finalexampopup-wrap ul li  .inputtexarea-div .answer-textarea{padding:5px;width:660px;}
+.finalexampopup-wrap ul li .addoption-button{ font-size:14px; color:#595757; line-height:20px; padding:5px 10px; border:1px solid #c9c9c9; background:#eee;border-radius:3px; display:inline-block;transition: all 0.2s ease-in 0s;} 
+.finalexampopup-wrap ul li .addoption-button:hover{ background:#ccc;}
+.answerright-ico, .answererror-ico{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201610/3a956dbac430431f998723f6d61fb6c9.png) no-repeat; display:inline-block; margin-left:10px;}
+.answerright-ico{ background-position:-87px -222px; width:16px; height:14px;}
+.answererror-ico{background-position:-88px -244px;width:14px; height:15px; }
+.answerrighterror-ico {margin-right:20px;}
+.answer-span-m{ margin-left:20px;}
+/*finalexampopup-wrap end*/
+/*replace start*/
+.replacepopup-wrap{ padding:40px 60px;}
+.replacepopup-wrap a{ min-width:200px; height:50px; line-height:50px; font-size:18px; color:#fff; text-align:center; display:inline-block; border-radius:3px;}
+.replacepopup-wrap a:hover{ text-decoration:none;}
+.replacepopup-wrap .local-ico{ background:#5184d1;}
+.replacepopup-wrap .local-ico:hover{ background:#5c93e6;}
+.replacepopup-wrap .libraryico{ background:#1aa1b5;}
+.replacepopup-wrap .libraryico:hover{ background:#1cadc3;}
+.replacepopup-wrap .cancel{ background:#a0a0a0;}
+.replacepopup-wrap .cancel:hover{ background:#aaa9a9;}
+/*replace end*/
+
+/*视频设置样式 start*/
+.thirdstep_videoset_timeMsg{display: none;font-size: 14px;color:red;margin-left: 20px;}
+.thirdStep_videoOption_lessonTestQuestionShow{position: relative;top:0;left: 0;}
+.thirdStep_videoOption_mask{background:#ccc;opacity:0.3; -moz-opacity:0.3; filter:alpha(opacity=30);position:absolute;top: 0px;left:0px;z-index: 19999;}
+.thirstep_videoOption_editor{border: 1px solid #ccc;}
+.thirsetp_videoOption_hide{display: none;}
+.thirdstep_videosettitle-div{position:relative;}
+.videoOption-titleLength{color: #999; width:30px; height:26px; margin:1px 1px 0 0; display:inline-block;  text-align:center; line-height:26px; color:#595757; font-size:14px;background: #dbdada;border: 1px solid #b5b5b5;}
+.thirdstep_videoborder-div{border: 1px solid #c9c9c9; position:relative; background:#FFF;}
+/*弹窗英语单词自动换行*/
+.thirdstep_wordWrap { white-space:normal; width:350px;} 
+/*视频设置样式 end*/

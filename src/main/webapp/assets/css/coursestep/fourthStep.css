@@ -1,0 +1,28 @@
+/* fourstep start*/
+.faceLecture-div{ width:100%; height:auto; overflow:hidden; position:relative;}
+.faceLecture-title{ background:#1aa1b5; border-radius: 4px; height:25px; padding:10px 20px;  font-size:18px; color:#fff; line-height:23px; position:relative; cursor:pointer;}
+.faceLecture-div:hover .faceLecturedeleteico{ background-position:-53px -22px; width:22px; height:22px; position:absolute; top:10px; right:55px;}
+.faceLecture-div .faceLecturedeleteico:hover{background-position:-73px -22px;}
+.faceLecture-title sup{ margin-right:10px;font-size:12px; line-height:16px;}
+.faceLecture-title .deleteico:hover{background-position:-73px -22px;}
+.faceLecture-title .uparrow, .faceLecture-title .downarrow{position:absolute;  right:22px; width:15px; height:11px;}
+.faceLecture-title .uparrow{ background-position:0 -52px; top:17px;}
+.faceLecture-title .downarrow{background-position:-22px -54px; top:19px;}
+.faceLecture-content{ background:#fbfbfb; padding:20px 50px 0 30px; border:1px solid #c9c9c9; border-top:0; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; height:auto; overflow:hidden; position:relative; top:-2px;}
+.faceLecture-content .themediv{border: 1px solid #e2e2e2;height: 30px;width: 100%;}
+.faceLecture-content .themediv input{ border: 0 none;height: 20px;width: 845px;}
+.faceLecture-content ul li{ margin-bottom:20px;}
+.faceLecture-content ul li p{ color:#595757; font-size:14px; line-height:20px; margin-bottom:10px;}
+.teachingmodel-div select{ width:255px; padding:5px; border:1px solid #e2e2e2;}
+.stepconter-div .teachingrequirements-div .institution_input{width:230px; height:20px;}
+.faceLecture-content ul li .Savebtn{ background:#54c93e;}
+.faceLecture-content ul li .Cancelbtn{ background:#b5b5b7;}
+.faceLecture-content ul li .Savebtn:hover{background:#4bb238;}
+.faceLecture-content ul li .Cancelbtn:hover{ background:#a5a5a6;}
+.faceLecture-content ul li .Savebtn, .faceLecture-content ul li .Cancelbtn{display:inline-block;transition: background 0.2s ease-in 0s;color:#fff; width:72px;border-radius: 4px; text-align:center; padding:5px 0; height:20px; line-height:20px;}
+.lectereaddico-div{border-radius: 4px; background:#1aa1b5; padding:10px 20px; height:25px; line-height:23px; color:#fff; width:280px; display: inline-block; font-size:18px;}
+.lectereaddico-div .lectereaddico{background-position:-105px -27px; width:20px; height:21px; margin:2px 10px 0 0;}
+.lectereaddico-div:hover{transition: background 0.2s ease-in 0s; background:#0e8ea1;}
+.teachingmodel-div .prerequisite_text{ width:876px;}
+.stepconte-ul li .coursetitle{ margin-bottom:15px;}
+/* fourstep end*/

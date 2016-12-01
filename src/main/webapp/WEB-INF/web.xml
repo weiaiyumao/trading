@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:spring/beans.xml</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>encoding</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>MDCFilter</filter-name>
+		<filter-class>com.zhihuishu.treenity.web.MDCFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>MDCFilter</filter-name>
+		<servlet-name>dispatcher</servlet-name>
+	</filter-mapping>
+
+	<!-- 该过滤器的作用：满足除了get请求和post请求之外的请求方式 -->
+	<filter>
+		<filter-name>HiddenHttpMethodFilter</filter-name>
+		<filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>HiddenHttpMethodFilter</filter-name>
+		<servlet-name>dispatcher</servlet-name>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>
+		            classpath:spring/dispatcher.xml
+			</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<!-- dubbo http -->
+	<servlet>
+		<servlet-name>dubbo</servlet-name>
+		<servlet-class>com.alibaba.dubbo.remoting.http.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dubbo</servlet-name>
+		<url-pattern>/dubbo/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- CAS 登出监听器/过滤器 -->
+	<listener>
+		<listener-class>
+			org.jasig.cas.client.session.SingleSignOutHttpSessionListener</listener-class>
+	</listener>
+	<filter>
+		<filter-name>CasSingleSignOutFilter</filter-name>
+		<filter-class>org.jasig.cas.client.session.SingleSignOutFilter</filter-class>
+		<init-param>
+			<param-name>casServerUrlPrefix</param-name>
+			<param-value>http://passport.zhihuishu.com</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CasSingleSignOutFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- CAS 认证过滤器 -->
+	<filter>
+		<filter-name>CasAuthenticationFilter</filter-name>
+		<filter-class>org.jasig.cas.client.authentication.AuthenticationFilter2</filter-class>
+		<!-- <filter-class>com.zhihuishu.myuni.filter.CasAuthenticationFilter</filter-class> -->
+		<init-param>
+			<param-name>casServerLoginUrl</param-name>
+			<param-value>
+				http://passport.zhihuishu.com/login?customLoginUrl=http://treenity.zhihuishu.com/login
+			</param-value>
+		</init-param>
+		<init-param>
+			<param-name>gateway</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>serverName</param-name>
+			<param-value>http://www.treenity.com</param-value>
+		</init-param>
+		<init-param>
+			<param-name>filtratePatterns</param-name>
+			<param-value>/assets/*,/login/*,/error/*</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CasAuthenticationFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- CAS 票据验证过滤器 -->
+	<filter>
+		<filter-name>CasValidationFilter</filter-name>
+		<filter-class>
+			org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter</filter-class>
+		<init-param>
+			<param-name>casServerUrlPrefix</param-name>
+			<param-value>
+				http://passport.zhihuishu.com
+			</param-value>
+		</init-param>
+		<init-param>
+			<param-name>serverName</param-name>
+			<param-value>http://www.treenity.com</param-value>
+		</init-param>
+		<init-param>
+			<param-name>redirectAfterValidation</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>  
+		    <param-name>encoding</param-name>  
+		    <param-value>UTF-8</param-value>  
+		</init-param> 
+		
+	</filter>
+	<filter-mapping>
+		<filter-name>CasValidationFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- CAS 外覆过滤器，用于获取认证用户信息 -->
+	<filter>
+		<filter-name>CasHttpServletRequestWrapperFilter</filter-name>
+		<filter-class>org.jasig.cas.client.util.HttpServletRequestWrapperFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CasHttpServletRequestWrapperFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>CasAssertionThreadLocalFilter</filter-name>
+		<filter-class>org.jasig.cas.client.util.AssertionThreadLocalFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CasAssertionThreadLocalFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>casFilter</filter-name>
+		<filter-class>com.zhihuishu.treenity.web.CasFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>casFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	
+	<error-page>
+	    <error-code>404</error-code>
+	    <location>/WEB-INF/jsp/error/500.jsp</location>
+	</error-page>
+
+	<error-page>
+	    <error-code>500</error-code>
+	    <location>/WEB-INF/jsp/error/500.jsp</location>
+	</error-page>
+</web-app>
+

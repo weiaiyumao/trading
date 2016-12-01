@@ -1,0 +1,79 @@
+/* secondstep start*/
+.createcourse-home-div{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/fbb0e871b21544d7b29bc32e6f2e495f.png) no-repeat; width:1200px; height:509px; position:absolute; top:207px; left:0; z-index:2;}
+.createcourse-firststep-div{ padding:0 100px; margin:95px 0 270px; width:1000px; height:auto; overflow:hidden; margin:auto;}
+.createcourse-firststep-div .content-rigth .tit{ color:#333; line-height:40px; font-size:40px; margin-bottom:35px;}
+.createcourse-firststep-div .content-right ul li  a{  border-radius: 4px; padding:10px 14px; width:285px; height:40px; line-height:40px;  color:#fff; font-size:20px; display:inline-block; transition: background 0.2s ease-in 0s;}
+.createcourse-firststep-div .content-right ul li .graybg{background:#d2d2d2; cursor:default;}
+.createcourse-firststep-div .content-right ul li{margin-top:18px; width:315px; height:60px; }
+.createcourse-firststep-div .content-right ul li .bluebg{ background:#d2d2d2;} 
+.createcourse-firststep-div .content-right ul li  .bluebg:hover{ background:#158595;}
+.progresstree_div .homepage-show{display:none;color:#6ddfb2; font-size:18px; line-height:20px; position:absolute; bottom:220px; right:5px; text-shadow:1px 1px 2px rgba(0,0,0,.2);}
+.progresstree_div .homepage-show:hover{color:#62d0a5;}
+.progresstree_div .progress-tree-wrap{display:inline-block;width:541px;height:640px;}
+.progresstree_div .percentfont{ color:#878787; font-size:42px; line-height:35px; display:inline-block; position:absolute; bottom:42px; left:225px; width:110px; text-align:center;}
+.hometit-p .editico{ background-position: -23px -283px;height: 25px;margin-left: 30px;width: 18px;}
+.coursetit-input{ width:1000px; height:auto;margin:0px auto 20px; position:relative; z-index:2; }
+.coursetit-input input{ border:1px solid #1aa1b5; width:100%; height:30px; line-height:30px; padding:12px 0 12px 10px;  border-radius: 4px; font-size:24px;animation:myfirst 5s;
+-moz-animation:myfirst 1s; /* Firefox */
+-webkit-animation:myfirst 1s; /* Safari and Chrome */
+-o-animation:myfirst 1s; /* Opera */ }
+@keyframes myfirst
+{
+0%   {border:1px solid #1aa1b5;}
+25%  { border:1px solid #e2e2e2;}
+50%  {border:1px solid #1aa1b5;}
+100%  {border:1px solid #e2e2e2;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {border:1px solid #1aa1b5;}
+25%  {border:1px solid #e2e2e2}
+50%  {border:1px solid #1aa1b5;}
+100%  {border:1px solid #e2e2e2;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {border:1px solid #1aa1b5;}
+25%  {border:1px solid #e2e2e2}
+50%  {border:1px solid #1aa1b5;}
+100%  {border:1px solid #e2e2e2;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {border:1px solid #1aa1b5;}
+25%  {border:1px solid #e2e2e2}
+50%  {border:1px solid #1aa1b5;}
+100%  {border:1px solid #e2e2e2;}
+}
+.trees-btn .delete-tit{ background:#7c4c05; color:#fff; font-size:18px; line-height:23px; position:absolute; bottom:12px; left:87px; text-indent:4px;border-top-right-radius: 4px; border-bottom-right-radius: 4px;height:24px;} 
+.progress-tree-wrap{width:631px;height:640px;}
+.treesbtn-span{position:absolute;bottom: 1px;right: 14px; display:inline-block; width:85px; height:129px;}
+.progresstree_div{ width:541px; height:640px; position:relative; z-index:3;}
+.progress-tree-wrap:hover .homepage-show{display:block;}
+.progress-tree-wrap .viewcourse-ico{ background-position:-2px -282px; width:14px; height:18px;}
+.icotit_div .red-hintico{ background-position:-110px 0; width:11px; height:13px; margin-right:18px;}
+.icotit_div .redhint-p{ color:#d43c2a; font-size:14px; width:971px;}
+.progresstree-0,.progresstree-1-10,.progresstree-11-20,.progresstree-21-30,.progresstree-31-40,.progresstree-41-50,.progresstree-51-60,.progresstree-61-70,.progresstree-71-80,.progresstree-81-90,.progresstree-91-99,.progresstree-100{width:541px; height:554px;}
+.createcourse-firststep-div  .progresstree_div .trees-btn{ background-position:0 -142px; width:90px; height:129px; position:absolute; bottom:1px; right:-90px;cursor:pointer;}
+.progresstree-0{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/c8f8dde4f78149628b690f62697ff54e.png) no-repeat;}
+.progresstree-1-10{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/f379c3e981d245eb93412a1156a36843.png) no-repeat;}
+.progresstree-11-20{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/7631b211a90b44e6b784c33852a133e1.png) no-repeat;}
+.progresstree-21-30{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/4c9d2a24eb0d413bba4b3a7793eef1c0.png) no-repeat;}
+.progresstree-31-40{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/bc2ece14675e4fc6b7f38341cac60893.png) no-repeat;}
+.progresstree-41-50{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/078a26eaf917447aa546e58a43bea198.png) no-repeat;}
+.progresstree-51-60{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/cf928ebb55014140a3b831eb44babc94.png) no-repeat;}
+.progresstree-61-70{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/e2d10c64c7ea46e38972ea82ac4b2d37.png) no-repeat;}
+.progresstree-71-80{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/0ac5ba047a0945aea4cd9fe95c76ad07.png) no-repeat;}
+.progresstree-81-90{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/f368b32890eb4893938b2c69265980ba.png) no-repeat;}
+.progresstree-91-99{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/382c7eb4b9e34481a3922b239b303e48.png) no-repeat;}
+.progresstree-100{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/03696afc75d24f0da47e068677c01f04.png) no-repeat;}
+.createcourse-firststep-div .progresstree_div .trees-btn:hover {background-position:0 0; width:90px; height:129px; position:absolute;}
+.createcourse-firststep-div{ margin:100px auto; position:relative;}
+.createcoursehome-wrap{}
+.createcoursehome-div{padding:100px auto; position:relative; padding:0 100px 0 100px; width:1000px;}
+.content-right{ position:relative; z-index:3; margin:95px 0 0 0;}
+.content-left{}
+/* secondstep end*/

@@ -1,0 +1,42 @@
+/*fivestep start*/
+.mrginbottom40{ margin-bottom:40px;}
+.assessstrategylist-ul{ margin:24px 0 0 30px; border-left:1px solid #a0a0a0;  padding:10px 0 10px 15px; line-height:20px;}
+.stepconter-div  .chapter-ul li{ margin-bottom:28px;}
+.assessstrategylist-l .tit-p{ color:#595757; font-size:16px; font-weight:700; width:710px; line-height:18px;}
+.assessstrategylist-l .tit-p-leecture{  width:100%;}
+.assessstrategylist-l .font-p{ margin-left:15px; color:#898989; margin-top:10px; line-height:17px; width:700px;} 
+.totalpoints-div{ width:156px; }
+.totalpoints-input input{ width:35px; height:18px; text-align: center; padding: 5px 0px 5px 0px;}
+.totalpoints-font, .totalpoints{ display:inline-block;}
+.totalpoints-font{ width:35px;  text-align:center; font-weight:700; display:inline-block;}
+.totalpoints{ margin-left:20px; font-size:16px; font-weight:700; line-height:18px;}
+.assessstrategylist-l ul li .totalpoints{ margin-left:20px; font-size:14px; font-weight:700;}
+.mt-6{ margin-top:-6px;}
+.chapter-ul{  margin:20px 0 0 15px;}
+.assessstrategylist-l ul li{ margin-bottom:28px;} 
+.assessstrategylist-l ul li .tit-p{ font-size:14px; line-height:18px;}
+.assessstrategylist-l ul li .totalpoints-div{ width:103px; }
+.stepconter-div .forum-div{  margin:30px 0 0 30px; padding:32px 0 0 15px; height:20px; border-top:1px dashed #e2e2e2; position:relative;}
+.tit-p sup{ margin-right:5px;}
+.assessstrategylist-ul li{ position:relative;}
+.assessstrategylist-ul li .progressbar-redico{ background-position:-1px 0px; }
+.assessstrategylist-ul li .progressbar-redico, .assessstrategylist-ul li .progressbar-blueico, .assessstrategylist-ul li .progressbar-yellowico, .assessstrategylist-ul li .progressbar-greenico, .assessstrategylist-ul li .progressbar-grayico{ width:16px; height:16px; position:absolute; top:2px; left:-23px;}
+.assessstrategylist-ul li .progressbar-blueico{ background-position:-1px -22px;}
+.assessstrategylist-ul li .progressbar-yellowico{background-position:-1px -44px;}
+.assessstrategylist-ul li .progressbar-greenico{background-position:-1px -67px;}
+.assessstrategylist-ul li .progressbar-grayico{background-position:-1px -90px; top:2px; left:-23px;}
+.progressbar-div{ width:1200px; background:#f4f4f4;border-radius: 8px; padding:3px 0; height:14px; margin:120px auto;}
+.progressbar-div .redbar,.progressbar-div .bluebar, .progressbar-div .yellowbar, .progressbar-div .greenbar{ }
+.progressbar-div .redbar{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/7bd0a47ac94047aab20eca5e01649767.png) repeat-x;  border-top-left-radius: 9px;border-bottom-left-radius:11px;}
+.progressbar-div .bluebar{ background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/636c76126819425d99ce79a7fef9778b.png) repeat-x;}
+.progressbar-div .yellowbar{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/7d298086cd4a4dd2b445b0def34ecc3d.png) repeat-x;}
+.progressbar-div .greenbar{background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201609/40f4d7b3806248dc9aa3b0a401a22940.png) repeat-x; }
+.progressbar-div .graybar { background:url(http://image.zhihuishu.com/testzhs/able-commons/demo/201610/fc790c762ed54e8fa756d952a152cd98.png) repeat-x;}
+.addGraybar-right{border-top-right-radius: 9px;border-bottom-right-radius: 11px;}
+.addGraybar-left{border-top-left-radius: 9px;border-bottom-left-radius: 11px;}
+.progressbar-div ul li{ float:left; position:relative;height:15px; }
+.percentage-font{ position:absolute; top:-30px; text-align:center; display:inline-block; left:0; width:100%;}
+.chapter-ul li .facelecturediv{ margin-left:15px; width:740px;}
+.chapter-ul li .facelecturediv .attendance-p{ margin-bottom:25px;}
+.mt-15{ margin-top:-15px;}
+/* fivestep end*/
